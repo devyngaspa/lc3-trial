@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   root 'application#index'
 
   resources :resources, only: [:index, :show]
-  resources :highlights
+  resources :highlights do
+    get :fetch, on: :collection
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
