@@ -13,4 +13,9 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require_tree .
+//= require rangy-core
+//= require rangy-cssclassapplier
+//= require rangy-highlighter
+//= require rangy-selectionsaverestore
+//= require rangy-serializer
+//= require rangy-textrange
